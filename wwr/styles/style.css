@@ -1,4 +1,4 @@
-body {background-color: #DBFCFF; font-family: Verdana, Arial;  font-size: 22px;}
+body {background-color: #DBFCFF; font-family: Verdana, Arial;  font-size: 22px; margin: 0; padding: 0; text-align: center;}
 #content {max-width: 1600px; margin: 0 auto;}
 nav {text-align: center; background-color: #41658A;}
 a {text-align: center;}
@@ -10,24 +10,29 @@ section {text-align: center;}
 #background {height: 725px;}
 header {background-color: #41658A;}
 a:hover {background-color: #A6CFD5;}
-.book {background-color:#DBFCFF; color: #41658A; text-decoration: none; font-size: 1.8em;}
-.join {background-color: #DBFCFF; color: #41658A; text-decoration: none; font-size: 1.8em;}
+.book, .join {background-color:#DBFCFF; color: #41658A; text-decoration: none; font-size: 1.8em; padding: 15px 30px; margin-top: 50px; border-radius: 5px;}
 .book:hover {background-color: #41658A; color: #DBFCFF;}
 .join:hover {background-color: #41658A; color: #DBFCFF;}
 #background {background-color: #322214;}
-.msg {background-color: #A6CFD5;font-family: Verdana, Arial;}
-footer {background-color: #41658A;}
-nav a {color: #A6CFD5; text-decoration: none;}
+.msg {background-color: #A6CFD5;font-family: Verdana, Arial; line-height: 1.5em; padding: 35px;}
+footer {background-color: #41658A; font-size:.8em; margin-top: 200px}
+nav a {text-align:center; color: #A6CFD5; text-decoration: none; padding: 35px}
 nav a:hover {color: #322214;}
-.home-title {color: #070707; font-family: Brush Script MT, Verdana, Arial; font-size: 2em;}
+.home-title {color: #070707; font-family: Brush Script MT, Verdana, Arial; font-size: 2em; margin-top: 10px;}
 h4 {color: #070707;}
 .msg h2 {color:#41658A; font-family: Verdana, Arial; font-size: 1.6em;}
-.msg p {color: #070707; font-family: Verdana, Arial; font-size: .8em;}
-footer {color: #322214;}
+.msg p {color: #070707; font-family: Verdana, Arial; font-size: .8em; padding-bottom: 15px}
+footer {color: #322214; padding: 25px 50px}
 footer a {color: #A6CFD5; text-decoration: none;}
 footer a:hover {color: #41658A;}
+footer .social img {padding-top: 15px;}
 .logo {width: 80px;}
-.icon {width: 80px;}
+.icon {width: 80px; padding-top: 10px}
 #hero-img {width:100%;}
 footer p{font-size: 1.2em; font-family: Verdana, Arial;}
 footer p a:hover{text-decoration: underline;}
+h2 {margin: 0}
+#logo_link {padding-top: 5px}
+.rivers-card, .camping-card, .rapids-card{margin: 200px 0;}
+.card-img{border: 10px solid #070707;}
+main section img{box-sizing: border-box;}
