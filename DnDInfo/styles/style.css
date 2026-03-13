@@ -1,0 +1,13 @@
+.logo { 
+    width: 200px;
+}
+.hero img {
+    max-width: 100%;
+    object-fit: cover;
+}
+.campaign-logo {
+    max-width: 300px;
+}
+.social img {
+    max-width: 50px;
+}
