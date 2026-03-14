@@ -1,3 +1,6 @@
+.content {
+   background-color: #EDF0F3; 
+}
 .logo { 
     width: 200px;
 }
@@ -11,3 +14,20 @@
 .social img {
     max-width: 50px;
 }
+.catchphrase {
+    font-style: italic;
+}
+/* .premise{
+    
+}
+.characters {
+
+}
+.npcs {
+
+}
+.summaries {
+    
+}
+
+*/ 
