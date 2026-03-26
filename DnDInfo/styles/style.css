@@ -190,17 +190,48 @@ footer p{
 footer p a:hover{
     text-decoration: underline;
 }
-/* .premise{
-    
-}
-.characters {
 
+.character, .npcs{
+    display: grid;
+    grid-template-columns: 100px 30% 1fr 100px;
+    grid-template-rows: 100px 100px 300px 100px;
 }
-.npcs {
+.character h2, .npcs h2{
+    grid-column: 1/5;
+}
+.character h4, .npcs h4{
+    grid-column: 1/5;
+}
+h4::before {
+  content: "───── ✦ ";
+  color: #000000;
+}
+h4::after {
+  content: " ✦ ─────";
+  color: #000000;
+}
+.character img, .npcs img{
+    width: 100%;
+    float: left;
+    position: relative;
+    top: -1.5em;
+    grid-column: 2/3;
+    margin-top: 30px;
+}
 
-}
-.summaries {
-    
+.characters p{
+    grid-column: 3/4;
 }
 
-*/ 
+h4::before {
+  content: "───── ✦ ";
+  color: #000000;
+}
+h4::after {
+  content: " ✦ ─────";
+  color: #000000;
+}
+
+.full{
+    grid-column:1/-1;
+}
