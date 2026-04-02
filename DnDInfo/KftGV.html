@@ -30,6 +30,32 @@
                     Let your journey with the Golden Vault begin! You have been approached by a representative of the mysterious Golden Vault, and they have given you a mission: should you choose to accept it, you will be seizing a strange stone from a nearby museum. You aren't given many details, soley a meeting place with your employer. The clock is ticking: that artifact isn't going to steal itself!
                 </p>
             </div>
+            <h3>Campaign Starts in:</h3>
+            <h3 id="demo"></h3>
+
+            <script>
+                var countDownDate = new Date("Apr 29, 2026 08:00:00").getTime();
+
+                var x = setInterval(function() {
+
+                var now = new Date().getTime();
+
+                var distance = countDownDate - now;
+
+                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+                + minutes + "m " + seconds + "s ";
+
+                if (distance < 0) {
+                    clearInterval(x);
+                    document.getElementById("demo").innerHTML = "EXPIRED";
+                }
+                }, 1000);
+            </script>
             <div class="characters">
                 <h2>Player Characters</h2>
                 <div class="character">
